@@ -1,5 +1,5 @@
-body, p, a {
-	font-family:"Bitter", Consolas, Helvetica, sans-serif;
+body {
+	font-family: 'Bitter', serif;
 }
 
 header {
@@ -23,6 +23,10 @@ header h2 {
 
 .icon {
 	text-align:center;
+}
+
+.icon-wrap h2,img {
+	margin:0 auto;	
 }
 
 .icon h2 {
@@ -73,3 +77,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', end
 	background:#393838;
 
 } 
+
+
+
+/** LOCATION CSS **/
+
+.location-arrow {
+	position:absolute;
+	top:20px;
+	right:15px;	
+	font-size:20px;
+}
